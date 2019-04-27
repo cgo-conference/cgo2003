@@ -1,0 +1,92 @@
+				CALL FOR PAPERS
+			   	===============
+
+  1st Workshop on Optimizations for DSP and Embedded Systems (ODES)
+  held in conjunction with CGO (Int. Sym. on code generation and
+optimization)
+                   March  2003, San Francisco, CA, USA
+
+		SUBMISSION DEADLINE:  JANUARY 17, 2003
+
+
+
+  The performance requirements of digital signal processing and 
+embedded applications are rapidly increasing, but the power and cost 
+budgets are decreasing. Optimization plays a very important role in 
+managing the conflicting demands. The focus of this workshop is to 
+understand the various optimization strategies applicable to the 
+design of DSP and embedded systems for performance, power, and cost. 
+  
+
+TOPICS OF INTEREST
+------------------
+  Topics of interest include, but are not limited to:
+  
+  * Algorithmic transformations and code/software optimizations
+  * Hardware and software optimizations for low-power consumption
+    and/or code density
+  * Coprocessor and hardware accelerators
+  * Compiler techniques and code generation for media processing
+  * Frameworks for profiling and scheduling tasks (multiple/
+    concurrent) on various hardware resources (single-core + 
+    hardware accelerators, dual-core, system-on-a-chip, etc)
+  * Hardware/software tradeoffs with ASICs, FPGA's, DSPs, 
+    general-purpose processors, microcontrollers, etc as 
+    building blocks
+  * Retargetable compilers and reconfigurable architectures
+
+
+IMPORTANT DATES AND DEADLINES
+-----------------------------
+  Submission: January 17, 2003
+  Acceptance: February 14, 2003
+  Final version: March 7, 2003
+
+  
+SUBMISSION GUIDELINES
+---------------------
+  To encourage participation, we are not asking for full papers for 
+this first workshop. Please submit an extended abstract, and a 
+corresponding foil set. Clearly describe the nature of the work, its 
+significance and the current status of the research. Include the 
+list of authors and their affiliations, addresses, telephone and fax 
+numbers, email addresses and the name of the corresponding author.
+  A web site will be available for electronic submission shortly. 
+Watch for an updated call for papers. In the mean time, please 
+submit extended abstracts to:
+  
+  Deepu Talla
+  Texas Instruments
+  12500 TI Blvd, M/S 8638
+  Dallas, TX 75243
+  deepu@ti.com
+  
+  OR
+  
+  Lizy K. John
+  ECE Department
+  1 University Station, C0803
+  The University of Texas 
+  Austin, TX 78712
+  ljohn@ece.utexas.edu
+
+
+PROGRAM COMMITTEE
+-----------------
+Shuvra Bhattacharyya, 	University of Maryland
+Steve Carr, 		Michigan Technological University
+Pradeep Dubey,		Broadcom
+Jose Fridman, 		Analog Devices
+Jason Fritts,		University of Washington at St. Louis
+Tor Jeremiassen, 		Texas Instruments
+Lizy John, 			University of Texas at Austin
+Eugene John, 		University of Texas at San Antonio
+Vinod Kathail,		Hewlett Packard
+Rainer Leupers,		Aachen University of Technology
+Vijay Madisetti,		Georgia Tech
+John Reekie,		University of California at Berkeley
+Deepu Talla,		Texas Instruments
+
+
+
+

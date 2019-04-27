@@ -1,0 +1,389 @@
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title> Online Registration Processing </title>
+</head>
+<body>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>CGO-1 Online Registration</title>
+</head>
+  <body>
+<form name="register" onsubmit="return inputCheck(this.email.value);"
+ action="reg.php" method="post">           
+  <table align="center" border="0" width="80%" cellpadding="0"
+ cellspacing="0" summary="CGO-1 Online Registration Form">
+<tbody>
+<tr>
+<td>                         
+<table width="100%" border="1" cellpadding="10" cellspacing="0"
+summary="Title banner 1">
+<tbody>
+<tr>
+<td class="highlight" valign="middle"
+align="center">                     <img border="0"
+src="../images/logo.gif" alt="CGO logo" align="middle" width="60"
+height="99">
+&nbsp;&nbsp;			                   <font size="5"><b>CGO
+2003 On-line Registration                    Form</b></font></td>
+</tr>
+
+</tbody>         
+</table>
+</td>
+</tr>
+<tr>
+<td align="left">                         
+<table width="100%" border="1" cellpadding="10" cellspacing="0"
+summary="Registration steps">
+<tbody>
+<tr>
+<td>                      <br>
+<b>Step 1</b>: <b>Complete the form below</b> and
+press the "Submit" button. When  
+all the required data has been entered, a            
+         verification page with a summary of your input will            
+         appear.<br>
+<br>
+<b>Step 2: Check and correct data&nbsp;</b> in the
+verification page. Follow the "back" button of your
+browser in order to your original web form to make
+any changes. 
+<br>
+<br>
+<b>Step 3: Print the form and fill up the credit card information for payment. </b>
+After you print the form, press the "The above information is correct. Finalize   
+                  ..." button only when all the data is correct, and    
+                 press it only once. At this point, your information    
+                 will be entered in our database.
+<br>
+<br>
+<b>Step 4: Fax the credit card information with a subject "CGO Registration" to 
+"Yan Solihin" at  (919) 513-7075. </b>
+    
+<br>
+<br>
+<b>Step 5 </b>: Make sure that you book the hotel by <b> Feb 28 </b>  to get the low rate. 
+
+  
+              <p>If you need any help with the registration              
+       process, please feel free to contact the                      registration 
+chair <b>Yan Solihin</b> at <a href="mailto:solihin@eos.ncsu.edu">solihin@eos.ncsu.edu</a>.</p>
+                     </td>
+                   </tr>
+                            
+          </tbody>         
+        </table>
+               </td>
+             </tr>
+               <tr>
+               <td align="center">                         
+        <table width="100%" border="1" cellspacing="0" cellpadding="10"
+ summary="Title banner 2">
+                   <tbody>
+             <tr>
+                     <td valign="middle" align="center"
+ class="highlight">                     <b>Fields with <font
+ class="emph0">*</font> are                    required. Please enter "None"
+when                    necessary.</b></td>
+                   </tr>
+                            
+          </tbody>         
+        </table>
+               </td>
+             </tr>
+               <tr>
+
+               <td align="left">                         
+        <table width="100%" border="1" cellpadding="10" cellspacing="0"
+ summary="Registration name, address etc.">
+                   <tbody>
+             <tr>
+                     <td align="left"><b>Title<font class="emph0">*</font></b></td>
+                       <td colspan="2" align="left"><input type="radio"
+ value="Mr." name="title" checked="checked"><b>Mr.</b>&nbsp;             
+      <input type="radio" value="Ms." name="title"><b>Ms.</b> <input
+ type="radio" value="Dr." name="title"><b>Dr.</b> <input type="radio"
+ value="Prof." name="title"><b>Prof.</b></td>
+                   </tr>
+                     <tr>
+                     <td align="left"><b>First Name<font class="emph0">*</font></b></td>
+                       <td colspan="2" align="left"><input
+ name="first_name" size="20" value=""  <b>Middle Initial</b> <input size="4"
+ name="middle_initial"></td>
+                   </tr>
+                     <tr>
+                     <td align="left"><b>Last Name<font class="emph0">*</font></b></td>
+                       <td colspan="2" align="left"><input
+ name="last_name" size="20" value=""> </td>
+                   </tr>
+                     <tr>
+                     <td align="left"><b>Name on badge</b></td>
+                       <td colspan="2" align="left"><input
+ name="badge_name" size="20"  value="" ></td>
+                   </tr>
+                     <tr>
+                     <td align="left"><b>Affiliation<font class="emph0">*</font></b></td>
+                       <td colspan="2" align="left"><input size="37"
+ name="affiliation"  value="" ></td>
+                   </tr>
+                     <tr>
+                     <td align="left"><b>Address<font class="emph0">*</font></b></td>
+                       <td colspan="2" align="left"><input size="44"
+ name="address1"  value="" ></td>
+                   </tr>
+                     <tr>
+                     <td align="left">&nbsp;</td>
+                       <td colspan="2" align="left"><input size="44"
+ name="address2"  value="" ></td>
+                   </tr>
+                     <tr>
+                     <td align="left">&nbsp;</td>
+                       <td colspan="2" align="left"><input size="44"
+ name="address3"  value="" ></td>
+                   </tr>
+                     <tr>
+                     <td align="left"><b>City<font class="emph0">*</font></b></td>
+                       <td align="left"><input name="city" size="20"value=""> </td>
+                       <td align="left"><b>State (US only)</b><input 
+ size="2" name="state" value=""></td>
+                   </tr>
+                     <tr>
+                     <td align="left"><b>Postal / Zip Code</b></td>
+                       <td align="left"><input size="11" name="zip_code">
+                   &nbsp;</td>
+                       <td align="left"><b>Country<font class="emph0">*</font></b> 
+<input size="8" name="country"value=""></td>
+                   </tr>
+                     <tr>
+                     <td align="left"><b>E-Mail<font class="emph0">*</font></b></td>
+                       <td colspan="2" align="left"><input size="30"
+ name="email"value=""></td>
+                   </tr>
+                     <tr>
+                     <td align="left"><b>Phone<font class="emph0">*</font></b></td>
+                       <td align="left"><input name="phone_number"
+ size="20"value=""></td>
+                       <td align="left"><b>Fax</b> <input
+ name="fax_number" size="20"value=""></td>
+                   </tr>
+                            
+          </tbody>         
+        </table>
+               </td>
+             </tr>
+               <tr>
+               <td valign="middle">                         
+        <table width="100%" border="1" cellpadding="10" cellspacing="0"
+ summary="Title banner 3">
+                   <tbody>
+             <tr>
+                     <td valign="middle" align="center"
+ class="highlight">                     <b>Conference Programs</b></td>
+                   </tr>
+                            
+          </tbody>         
+        </table>
+               </td>
+             </tr>
+               <tr>
+               <td align="left">                         
+        <table width="100%" border="1" cellpadding="10" cellspacing="0"
+ summary="Conference event selection form">
+                   <tbody>
+             <tr>
+                     <td valign="top" align="left">                     
+               
+              <p align="center"><b>March 24-26</b></p>
+                     </td>
+                       <td valign="top" align="left"><input
+ type="checkbox" checked="checked" value="ON" name="mainconf"value=""> CGO-1      
+             Conference</td>
+                   </tr>
+                     <tr>
+                     <td valign="top" align="left">                     
+               
+              <p align="center"><b>Sunday, March 23<br>
+ Tutorials<br>
+               </b></p>
+                     </td>
+                       <td valign="top" align="left">                   
+                 
+              <p align="left"><b>Morning tutorials (choose at most one):</b><br>
+               </p>
+               
+              <p align="left"><input type="checkbox" value="ON"
+ name="tutorial1"value=""> ORP - A Java/CLI Platform for Investigating JIT and GC <br>
+Technologies <br>
+               </p>
+               
+              <p align="left"><input type="checkbox" value="ON"
+ name="tutorial2"value="">&nbsp;On the Run - Building Dynamic Program Modifiers for Optimization,
+Introspection, and Security <br>
+              </p>
+              <p align="left"><b>Afternoon tutorial: </b><br>
+               </p>
+               
+              <p align="left"><input type="checkbox" value="ON"
+ name="tutorial3"value="">&nbsp;
+Security through Languages and Compilers
+<bi>
+               </p>
+                                             </td>
+                   </tr>
+                     <tr>
+                     <td valign="top" align="left">                     
+               
+              <p align="center"><b>Sunday, March 23<br>
+ Workshops<br>
+               </b></p>
+                     </td>
+                       <td valign="top" align="left">                   
+                 
+              <p align="left"> <b> Full-day workshop (choose at most one): </b> </p>
+               
+              <p align="left"><input type="checkbox" value="ON"
+ name="workshop1"value=""> 1st Workshop on Optimizations for DSP and Embedded Systems (ODES)</p>
+               
+              <p align="left"><input type="checkbox" value="ON"
+ name="workshop2"value=""> 1st Workshop on Managed Run Time Workloads<br>
+               </p>
+                   </td>
+                   </tr>
+                            
+          </tbody>         
+        </table>
+               </td>
+             </tr>
+               <tr>
+               <td>                         
+        <table width="100%" border="1" cellpadding="10" cellspacing="0"
+ summary="Title banner 4">
+                   <tbody>
+             <tr>
+                     <td class="highlight" valign="middle"
+ align="center">                     <b>Program Fees</b></td>
+                   </tr>
+                            
+          </tbody>         
+        </table>
+               </td>
+             </tr>
+               <tr>
+               <td align="left">                         
+        <table width="100%" border="1" cellpadding="10" cellspacing="0"
+ summary="Member/Nonmember/Student selection">
+                   <tbody>
+             <tr>
+                     <td colspan="5" align="left">                   <input
+ type="radio" checked="checked" value="acm" name="member_acm" value="">     ACM  Member&nbsp; 
+                   <input type="radio" value="ieee" name="member_acm"value=""> IEEE 
+Member&nbsp;                   <input type="radio" value="no"
+ name="member_acm"value=""> Non-member&nbsp;                    <input
+ type="radio" value="student" name="member_acm"value=""> Student (any membership)&nbsp;&nbsp;     
+             <br>
+  <br>
+  Member # <input size="26" name="member_number"value=""> (Please provide if you
+are an ACM/IEEE member) &nbsp;</td>
+                   </tr>
+                     <tr>
+                     <td colspan="5" align="left"><b>Conference         
+          registration</b> includes attendance in all sessions          
+         of the conference, conference proceedings, the conference banquet,
+coffee breaks and lunch.<br>
+              <br>
+                      <b>Tutorial/workshop registration</b> includes    
+               attendance in all the workshops and tutorial sessions    
+               you have selected and access to proceedings or notes     
+              for these sessions, coffee breaks and lunch.</td>
+                   </tr>
+                     <tr>
+                     <td align="right" rowspan="4">Early Registration<br>
+                      <font class="emph0"><u>on or before</u> March 8   
+               </font></td>
+                       <td align="right">&nbsp;</td>
+                       <td align="center">Conference</td>
+                       <td align="center">1 Workshop</td>
+                       <td align="center">1 Tutorial</td>
+                   </tr>
+                     <tr>
+                     <td align="right">ACM/IEEE&nbsp; Member</td>
+                       <td align="center">$480</td>
+                       <td align="center">$100</td>
+                       <td align="center">$50</td>
+                   </tr>
+                     <tr>
+                     <td align="right">Non-Member</td>
+                       <td align="center">$600</td>
+                       <td align="center">$125</td>
+                       <td align="center">$65</td>
+                   </tr>
+                     <tr>
+                     <td align="right">Student</td>
+                       <td align="center">$250</td>
+                       <td align="center">$75</td>
+                       <td align="center">$50</td>
+                   </tr>
+                     <tr>
+                     <td align="right" rowspan="3">Late Registration<br>
+                      <font class="emph0"><u>after</u> March 8          
+        </font></td>
+                       <td align="right">ACM/IEEE&nbsp; Member</td>
+                       <td align="center">$580</td>
+                       <td align="center">$125</td>
+                       <td align="center">$60</td>
+                   </tr>
+                     <tr>
+                     <td align="right">Non-Member</td>
+                       <td align="center">$720</td>
+                       <td align="center">$150</td>
+                       <td align="center">$75</td>
+                   </tr>
+                     <tr>
+                     <td align="right">Student</td>
+                       <td align="center">$300</td>
+                       <td align="center">$100</td>
+                       <td align="center">$60 </td>
+                   </tr>
+                                         <tr>
+                     <td align="left"><b>Additional Comments </b> (e.g., special meal request) </td>
+                       <td colspan="4" align="center"><textarea
+ name="comments" cols="60" rows="1">                                     
+                                                                        
+     </textarea></td>
+                   </tr>
+                     <tr>
+                     <td align="center" colspan="3">                    
+               
+              <p align="center"><b>Press button to proceed with          
+           registration</b><br>
+                        <input type="submit" value="Submit"
+ name="continue_step_1"></p>
+                     </td>
+                       <td align="center" colspan="2">                  
+                  
+              <p align="center"><b>Press button to reset this            
+         form</b><br>
+                        <input type="reset" value="Reset" name="B12"></p>
+                     </td>
+                   </tr>
+                            
+          </tbody>         
+        </table>
+               </td>
+             </tr>
+                
+    </tbody>           
+  </table>
+       </form>
+      <br>
+ <br>
+</body>
+</html>
